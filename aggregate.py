@@ -100,10 +100,8 @@ def metaanalysis(posts):
         des.append(happiness[1])
     elif (h < 0):
         des.append(happiness[2])
-    elif (h < 0.25):
-        des.append(happiness[3])
     else:
-        des.append(happiness[4])
+        des.append(happiness[3])
 
     des.append(sentiments[dominent_sentiment(posts)[0]])
 
